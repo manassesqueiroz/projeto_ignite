@@ -1,5 +1,7 @@
 import styles from "../components/Publication.module.css";
-import { Trash, ThumbsUp } from "@phosphor-icons/react";
+import { Trash } from "@phosphor-icons/react";
+import { Like } from "./buttonLike";
+
 
 export const Post = () => {
   return (
@@ -109,8 +111,7 @@ export const Post = () => {
                     <p>Muito bom Devon, parabéns!! 👏👏</p>
                   </div>
                 </div>
-                <a  >                          
-                     <ThumbsUp size={20} /><strong> Aplaudir • 0  </strong></a>
+              <div className={styles.like}>< Like /></div>   
               </div>
             </div>
           </div>

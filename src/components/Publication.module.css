@@ -131,17 +131,19 @@
     color: var(--gray-400);
 }
 
-.conteiner a{
+.like a{
+    display: flex;
     height: 20px;
     text-decoration: none;
-    display: flex;
     margin-top: 1.1rem;
     font-size: 14px;
     gap: 10px;
     align-items: center;
     color: var(--white);
+    align-items: center;
+    cursor: pointer;
 }
-.conteiner a:hover{
+.like a:hover{
     transition: all ease .2s;
     color: var(--green-500);
 
