@@ -1,0 +1,150 @@
+
+.Post{
+    height: 39rem;
+    width: 52rem;
+    padding: 2.5rem;
+    background-color: var(--gray-800);
+}
+.Post1{
+    height: 69rem;
+    margin-top: 2rem;
+    width: 52rem;
+    padding: 2.5rem;
+    background-color: var(--gray-800);
+}
+.Top{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.boxImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.avatar {
+
+    border: 2px solid var(--gray-800); 
+    border-radius: 5px;
+    height: 3.1rem;
+    width: 3.1rem;
+    outline: 1px solid var(--green-500); 
+    box-sizing: initial;
+}
+.usuario{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.Post1 time,
+.Post1 .usuario span, 
+.Post time,
+.Post .usuario span{
+   
+    color: var(--gray-400);
+}
+.commit{
+    width: 47rem;
+    height: 12.875rem;
+    margin-top: 1.5rem ;
+}
+.links a{
+    display: block;
+    margin-top: 2.5rem;
+    color:var(--green-500); 
+}
+
+.footer{
+    border-top: 1px solid var(--gray-300);
+    margin-top: 1.5rem ;
+    height: 16.7rem;
+}
+.footer span{
+    display: block;
+    margin: 1.5rem 0 1rem 0;
+    font-weight: bold;
+}
+.commented{
+    color: var(--gray-300);
+    background-color: var(--gray-800);
+    display: block;
+    height: 6rem;
+    width: 47rem;
+    border: 2px solid var(--green-500);
+    border-radius: 10px;
+    padding:0 1rem 3rem 1rem ;   
+}
+
+
+
+.footer button{
+    margin-top: 1rem;
+    height: 3.125rem;
+    width: 6.75rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var(--green-500); 
+    transform: scale(1);
+}
+.footer button:hover{
+    transition: all ease .3s;
+    transform: scale(1.1) ;
+}
+
+
+
+.boxResponse{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.infoResponse{
+    padding: 16px;
+    border-radius: 5px;
+    background-color:var(--gray-600);
+    height:7.5rem  ;
+    width:42.875rem ;
+
+}
+.userInfo{
+    display: flex;
+    justify-content: space-between;    
+}
+.userInfo a{
+    color: var(--white);
+}
+.userTime time{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 1rem;
+}
+.response,
+.userTime strong{
+    font-size: 14px;
+}
+.userTime strong i{
+    font-size: 12px;
+    color: var(--gray-400);
+}
+
+.conteiner a{
+    height: 20px;
+    text-decoration: none;
+    display: flex;
+    margin-top: 1.1rem;
+    font-size: 14px;
+    gap: 10px;
+    align-items: center;
+    color: var(--white);
+}
+.conteiner a:hover{
+    transition: all ease .2s;
+    color: var(--green-500);
+
+}
+
+
